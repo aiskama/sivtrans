@@ -1,0 +1,102 @@
+<extends src="layouts/main.html" locals='{ "title": "HELLO", "bodyClass": "" }'>
+  <block name="body">
+      <div class="relative items-start justify-center flex w-full h-full">
+          <div id="bgModal" class="fixed top-0 left-0  h-full z-0 bg-[#050D23] hidden opacity-50 w-full"></div>
+          <div id="myModal" class=" p-[55px] z-10 bg-[#1891F6] m-[110px] fixed hidden flex flex-col gap-6 container max-w-[1312px] mx-auto">
+              <div class="flex justify-between items-center">
+                  <span class="text-2xl text-white">Акция – “Специальная цена на Carrier Xarios 6 со стояночной секцией”</span>
+                  <div id =close class=" cursor-pointer">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect y="1" width="1" height="24" transform="rotate(-45 0 1)" fill="white"/>
+                          <rect y="1" width="1" height="24" transform="rotate(-45 0 1)" fill="white"/>
+                          <rect x="17" width="1" height="24" transform="rotate(45 17 0)" fill="white"/>
+                          <rect x="17" width="1" height="24" transform="rotate(45 17 0)" fill="white"/>
+                      </svg>
+                  </div>
+              </div>
+              <div class="flex justify-between gap-[72px] ">
+                  <span class="text-[0.9375rem] text-white">Оставьте, пожалуйста, свои контактные данные и мы  быстро свяжемся с вами</span>
+                  <div class="flex flex-col gap-8">
+                      <div class="flex gap-[18px]">
+                          <input class="bg-inherit text-white border-0 border-b-[#FFFFFF] border-b-[1px] placeholder-white focus:shadow-none focus:outline-none" placeholder="Имя"/>
+                          <input class="bg-inherit text-white border-0 border-b-[#FFFFFF] border-b-[1px] placeholder-white focus:shadow-none focus:outline-none" placeholder="Номер"/>
+                      </div>
+                      <input class="bg-inherit text-white border-0 border-b-[#FFFFFF] border-b-[1px] placeholder-white focus:shadow-none focus:outline-none" placeholder="Комментарий"/>
+                      <div class="flex items-center gap-[31px]">
+                          <button class="flex items-center shrink-0 h-12 px-[79px] py-[13px] rounded-md bg-[#F18C1E] text-[#FFFFFF] duration-200 active:scale-[0.9] hover:bg-[#F19A3D]">Отправить заявку</button>
+                          <span class="text-sm text-white"> <span class="opacity-50">Нажимая на кнопку, вы даёте согласие на обработку</span> персональных данных</span>
+                      </div>
+                  </div>
+              </div>
+              <img class="absolute bottom-0 left-0" src="public/images/logo.png">
+          </div>
+
+      </div>
+    <div class="flex  gap-[6.25rem] flex-col md:gap-[40px]">
+      <img class="w-full h-[31.25rem] hidden lg:block" src="public/images/banner_desk.png"/>
+      <img class="w-full h-[25.25rem]  lg:hidden" src="public/images/banner_mob.png"/>
+      <div class="container mx-auto px-4 flex gap-4 flex-col max-w-[82.0625rem] text-[#0F172A]">
+        <h2 class="text-2xl font-medium md:text-xl">В феврале 2024 года действует специальная цена на Carrier Viento 300 — всего 2397 евро и Viento 350 — всего 3128 евро*.</h2>
+        <span class="text-lg">Почему рефрижераторные установки Carrier выгодно и целесообразно приобретать у официальных партнеров? Узнать здесь.</span>
+        <span class="text-sm">*Указана рекомендованная розничная цена на момент публикации. Оплата в рублях. Количество товара ограничено. Действие специальных цен может быть прекращено досрочно при продаже всех или части товаров. Не является публичной офертой.
+    Указана цена только на оборудование, без учета монтажа и кронштейна крепления компрессора.</span>
+      </div>
+      <div class="w-full py-14 bg-[#F3F4F6] md:py-[24px]">
+        <div class="flex px-4  mx-auto w-full justify-between max-w-[82.0625rem] gap-[144px] lg:flex-row md:flex-col md:gap-8 ">
+            <div class="flex flex-col gap-[11px]">
+                <div class="p-4 bg-white flex items-center justify-center hover:border-[#1D4ED8] duration-200 border-[1px]">
+                    <img class="w-[272px] h-[272px] md:w-[312px] md:h-[312px]" src="public/images/product.png">
+                </div>
+                <span class="text-base text-[#0F172A] font-semibold md:mt-[21px]">Viento 300 R404A</span>
+                <span class="text-[#00B665] text-sm mt-2 md:mt-0">На складе</span>
+                <div class="flex gap-4 items-center mt-[3px] md:mt-[2px]">
+                    <button class="text-[0.9375tem] flex items-center h-12 px-[79px] py-[13px] rounded-md bg-[#1D4ED8] text-[#FFFFFF] duration-200 active:scale-[0.9] hover:bg-[#1D3ED9]">Подробнее</button>
+                    <span class="flex items-center gap-2 text-sm text-[#0F172A]">Сравнить
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.75 1.64453C2.75 1.23032 2.41421 0.894531 2 0.894531C1.58579 0.894531 1.25 1.23032 1.25 1.64453V14.3545C1.25 14.7687 1.58579 15.1045 2 15.1045C2.41421 15.1045 2.75 14.7687 2.75 14.3545V1.64453Z" fill="#0F172A"/>
+                    <path d="M8.75 7.85449C8.75 7.44028 8.41421 7.10449 8 7.10449C7.58579 7.10449 7.25 7.44028 7.25 7.85449V14.3545C7.25 14.7687 7.58579 15.1045 8 15.1045C8.41421 15.1045 8.75 14.7687 8.75 14.3545V7.85449Z" fill="#0F172A"/>
+                    <path d="M14.75 1.64453C14.75 1.23032 14.4142 0.894531 14 0.894531C13.5858 0.894531 13.25 1.23032 13.25 1.64453V14.3545C13.25 14.7687 13.5858 15.1045 14 15.1045C14.4142 15.1045 14.75 14.7687 14.75 14.3545V1.64453Z" fill="#0F172A"/>
+                    </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="flex flex-col gap-3 px-[40px] py-[64px] bg-white h-full md:gap-6 md:px-[16px] py-[20px]">
+                <span class="text-2xl font-medium text-[#1D4ED8] md:mb-[-12px] md:text-xl">Viento 300 R404A</span>
+                <p class="text-lg  text-[#0F172A] md:text-[1.0625rem]">Надежный и простой агрегат прямого привода для небольших развозных фургонов. Работает только в дорожном режиме. Модификации с разными хладагентами.</p>
+                <div class="flex justify-between items-center ">
+                    <span class="text-[#00B665] text-sm">На складе</span>
+                    <button id="openModalBtn" class="flex items-center h-12 px-[79px] py-[13px] rounded-md bg-[#F18C1E] text-[#FFFFFF] duration-200 active:scale-[0.9] hover:bg-[#F19A3D]">Заказать</button>
+                </div>
+                <span class="text-sm text-[#0F172A]">*Указана рекомендованная розничная цена на момент публикации. Оплата в рублях. Количество товара ограничено. Действие специальных цен может быть прекращено досрочно при продаже всех или части товаров. Не является публичной офертой.
+                       Указана цена только на оборудование, без учета монтажа и кронштейна крепления компрессора.</span>
+            </div>
+        </div>
+      </div>
+      <div class="container mx-auto px-4  gap-8 flex max-w-[82.0625rem] items-center md:flex-col md:gap-6">
+        <div class="flex gap-6 flex-col md:gap-4 ">
+          <span class="text-2xl font-medium md:text-xl">Carrier Viento — надежные и простые агрегаты прямого привода для развозных фургонов.</span>
+          <span class="text-[15px] font-extralight">Европейское качество, на которое можно положиться, от мирового лидера решений для холодовой цепи. Проверенные технологии, опробованные и протестированные предыдущими поколениями ведущих на рынке устройств с прямым приводом. Надежная охлаждающая способность и воздушный поток, защищающие качество груза при любых условиях.
+Небольшой размер, тонкие испарители. Работают только в дорожном режиме. Хладагент R404A. Официальная гарантия 15 месяцев.</span>
+        </div>
+        <img class="h-[25rem] md:h-[159px]" src="public/images/car.jpg"/>
+      </div>
+      <div class="container mx-auto pl-4  gap-8 flex max-w-[82.0625rem]">
+          <section  class="splide flex flex-col w-full " aria-labelledby="carousel-heading">
+              <h2 class="text-2xl font-medium py-8 border-t-[#D9D9D9] border-t">Другие акции</h2>
+
+              <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide ">
+                          <div class="flex max-w-[26rem] flex-col gap-4 md:max-w-[252px] md:gap-[12px]" >
+                              <img class="h-[222px] md:h-[134px]" src="public/images/sale.png"/>
+                              <span class="text-[#0F172A] text-base font-medium">Специальная цена на Carrier Xarios 6 со стояночной секцией</span>
+                            </div>
+                      </li>
+                  </ul>
+              </div>
+          </section>
+          </div>
+          </div>
+  </block>
+</extends>
+
